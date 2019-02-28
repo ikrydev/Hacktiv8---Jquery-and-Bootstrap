@@ -1,0 +1,17 @@
+.parent {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 500px;
+    animation: move 5s infinite;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes move {
+    0%   {top: 0px; background: red; width: 500px;}
+    100% {top: 200px; background: yellow; width: 600px;}
+  }
